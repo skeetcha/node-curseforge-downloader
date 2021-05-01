@@ -1,0 +1,27 @@
+{
+  "name": "curseforge-downloader",
+  "version": "0.0.1",
+  "description": "Install Minecraft CurseForge modpack into stock launcher",
+  "main": "downloader.js",
+  "dependencies": {
+    "adm-zip": "^0.5.5",
+    "argparse": "^2.0.1",
+    "async": "^3.2.0",
+    "bluebird": "^3.7.2",
+    "cheerio": "^1.0.0-rc.6",
+    "extract": "^1.0.0",
+    "follow-redirects": "^1.13.3",
+    "open": "^8.0.6",
+    "prompt-sync": "^4.2.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6",
+    "url-join": "^4.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node downloader.js"
+  },
+  "author": "CityboundForest",
+  "license": "MIT"
+}
